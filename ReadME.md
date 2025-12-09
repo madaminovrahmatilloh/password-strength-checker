@@ -14,17 +14,3 @@ A beginner-friendly Python project that checks the strength of passwords and est
 ## How to Run
 ```bash
 python3 password_strength_checker.py
-
-## Sample
-Enter a password: MyPass12345!
---- Password Strength Report ---
-Strength:  Strong
-Estimated crack time: Several years
-Suggestions to improve your password:
-• (none)
-
-## Skills Learned
-- Python programming
-- Regex (regular expressions)
-- CLI application design
-- Cybersecurity basics (password hygiene)
