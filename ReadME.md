@@ -18,9 +18,9 @@ Open in your browser:
 [Password Strength Checker](https://password-strength-checker-awbagqzoovymk57yp6pnkl.streamlit.app/)
 
 ### 2. Local (Python)
-```bash
+    ```bash
 # Activate virtual environment
-source ~/.venv/bin/activate
+    source ~/.venv/bin/activate
 
 # Run Streamlit locally
-streamlit run web.py
+    streamlit run web.py
