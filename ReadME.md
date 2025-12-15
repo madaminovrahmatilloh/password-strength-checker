@@ -1,4 +1,4 @@
-# Password Strength Checker 
+# Password Strength Checker 🔐
 
 A simple Python tool to check password strength, estimate crack time, and warn about common passwords.
 
@@ -18,8 +18,11 @@ Open in your browser:
 [Password Strength Checker](https://password-strength-checker-awbagqzoovymk57yp6pnkl.streamlit.app/)
 
 ### 2. Local (Python)
-# Activate virtual environment
+
+#### Activate virtual environment
     source ~/.venv/bin/activate
 
-# Run Streamlit locally
+#### Run Streamlit locally
     streamlit run web.py
+    python3 gui.py
+    uvicorn api:app --reload
