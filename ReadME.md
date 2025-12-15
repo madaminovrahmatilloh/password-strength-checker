@@ -26,3 +26,15 @@ Open in your browser:
     streamlit run web.py
     python3 gui.py
     uvicorn api:app --reload
+### API will be available at 
+    http://127.0.0.1:8000/docs
+## Tech / Libraries Used
+Python 3.12
+
+PyQt5 (GUI)
+
+Streamlit (Web interface)
+
+FastAPI & Uvicorn (API)
+
+Requests & Pandas (optional for future features)
