@@ -1,16 +1,26 @@
-# Password Strength Checker
+# Password Strength Checker 
 
-A beginner-friendly Python project that checks the strength of passwords and estimates the time it would take to crack them.
+A simple Python tool to check password strength, estimate crack time, and warn about common passwords.
 
 ## Features
-- Detects weak, medium, and strong passwords
-- Warns about common passwords
-- Provides suggestions to improve password strength
-- Estimates password crack time
 
-## Requirements
-- Python 3.x
+- Checks for weak, medium, or strong passwords
+- Detects common passwords like "123456" or "password"
+- Estimates how long it would take to crack a password
+- Web app interface using **Streamlit**
+- Optional GUI using **PyQt5**
+- API ready with **FastAPI**
 
-## How to Run
+## Usage
+
+### 1. Web app (recommended)
+Open in your browser:  
+[Password Strength Checker](https://password-strength-checker-awbagqzoovymk57yp6pnkl.streamlit.app/)
+
+### 2. Local (Python)
 ```bash
-python3 password_strength_checker.py
+# Activate virtual environment
+source ~/.venv/bin/activate
+
+# Run Streamlit locally
+streamlit run web.py
