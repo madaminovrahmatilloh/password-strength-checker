@@ -1,4 +1,4 @@
-# Password Strength Checker 🔐
+# Password Strength Checker 
 
 A simple Python tool to check password strength, estimate crack time, and warn about common passwords.
 
